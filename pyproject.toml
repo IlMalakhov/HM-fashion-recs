@@ -1,0 +1,10 @@
+[project]
+name = "hm-applied-project"
+version = "0.1.0"
+description = "Applied project in Deep Learning using the H&M fashion recommendations dataset."
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "pandas>=2.3.3",
+    "ydata-profiling>=4.17.0",
+]
