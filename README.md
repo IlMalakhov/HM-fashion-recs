@@ -4,23 +4,15 @@ Applied deep-learning exploration of the H&M fashion recommendations dataset.
 
 ## Quickstart
 
-1. **Clone the repo**
+**Clone the repo**
 
 ```bash
 git clone https://github.com/IlMalakhov/HM-fashion-recs.git
 cd HM-fashion-recs
 ```
 
-2. **Create a Python 3.12 virtual environment**
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate # on Windows: .\.venv\Scripts\activate
-```
-
-3. **Install dependencies**
-
-```bash
-pip install --upgrade pip
-pip install -e .
-```
+| Step | Local | JupyterHub |
+|------|----------------|-------------|
+| Create environment | `python3 -m venv .venv` Mac/Linux: `source .venv/bin/activate` or Windows:`.\.venv\Scripts\activate` | Use the preinstalled Python on JupyterHub (no venv needed). |
+| Install dependencies | `pip install --upgrade pip; pip install -e .` | Can probably install dependencies globally with `pip install` like usual |
+| Access project data | Maybe we could ask for a bucket | Shortcut link to data/ `ln -s /home/jovyan/__DATA/APBDID_F25/data/handm/ /home/jovyan/HM-fashion-recs/data` |
